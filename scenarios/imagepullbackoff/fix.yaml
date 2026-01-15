@@ -1,0 +1,4 @@
+containers:
+  - name: app
+    # Fix: use a valid public image
+    image: nginx:latest
