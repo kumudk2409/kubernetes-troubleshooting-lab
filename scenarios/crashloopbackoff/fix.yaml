@@ -1,0 +1,5 @@
+containers:
+  - name: app
+    image: busybox
+    # Fix: keep the container running to avoid CrashLoopBackOff
+    command: ["sh", "-c", "sleep 3600"]
