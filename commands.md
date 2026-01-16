@@ -2,11 +2,11 @@
 
 ## Pod Status & Events
 kubectl get pods
-kubectl describe pod app
+kubectl describe pod <pod-name>
 
-## Pod Logs
-kubectl logs app
-kubectl logs app --previous
+## Logs
+kubectl logs <pod-name>
+kubectl logs <pod-name> --previous
 
 ## Cluster Capacity
 kubectl describe node
