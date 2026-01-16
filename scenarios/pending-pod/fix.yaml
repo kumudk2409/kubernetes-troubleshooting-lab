@@ -1,0 +1,4 @@
+resources:
+  requests:
+    # Fix: reasonable CPU request that fits node capacity
+    cpu: "100m"
