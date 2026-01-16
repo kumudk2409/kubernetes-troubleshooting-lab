@@ -1,0 +1,5 @@
+readinessProbe:
+  httpGet:
+    # Fix: use an endpoint that actually exists
+    path: /
+    port: 80
